@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+3.) Once we connect to the virtual machine we will go to the control panel. From the control panel open up programs. Select, Turn Windows features on and off.
 
 <p>
 <img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -60,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
+4.) Then we will install / enable IIS in Windows with CGI and Common HTTP Features
   - World Wide Web Services -> Application Development Features -> 
 [X] CGI
 [X] Common HTTP Features
@@ -75,7 +75,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-***NOTE*** Make sure all Common HTTP Features are checked.
+***NOTE*** Please make sure all Common HTTP Features are checked.
  
  To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
   It should look something like this. 
@@ -110,7 +110,7 @@ If this appears, choose to “Keep” the file:
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
+9.) Once we have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Run the setup wizard:
