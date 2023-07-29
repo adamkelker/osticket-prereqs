@@ -33,7 +33,7 @@ In thistutorial we will cover the prerequisites and installation process of the 
 <h2>Installation Steps</h2>
 
 
-1.) The first thing we are going to want to do is create a virtual machine by going to Microsoft Azure (https://portal.azure.com/). Next step is to setup our virtual machine with Windows 10 Pro, version 22H2. For best performance, we will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory.
+1.) The first thing we are going to do is create a virtual machine by going to Microsoft Azure (https://portal.azure.com/). Next step is to setup our virtual machine with Windows 10 Pro, version 22H2. For best performance, we will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory.
 
 2.) Once we have created our virtual machine, we want to conncet to it by using the public ip address the vm is setup with. We will connect using the remote desktop connection app. 
 </p>
