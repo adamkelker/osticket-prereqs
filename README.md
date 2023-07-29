@@ -155,8 +155,8 @@ Register new PHP version.
 </p>
 <p>
   
-You will want to provide a path to the php executable file (php-cgi.exe)). 
-  Go to C Drive -> PHP -> click on php-cgi file.
+We need to provide a path to the php executable file (php-cgi.exe)). 
+  To do this we will go to C Drive -> PHP -> click on php-cgi file.
   
 <p>
 <img src="https://imgur.com/oJZ0gp9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -185,7 +185,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 </p>
 <p>
   
-  Some extensions are not enabled on the osTicket browser.
+  By default, some extensions are not enabled on the osTicket browser.
   
 <p>
 <img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -207,7 +207,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 </p>
 <p>
   
-  We will want to enable three extensions from here.
+  We will enable three extensions from here.
   
   1.) php_imap.dll
  
@@ -221,7 +221,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 <p>
   
   
-15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
+15.) Once we have those extensions enabled in IIS, we need to rename one of the files in our osTicket folder.
   Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   
   We are going to rename the ost-sampleconfig.php to ost-config.php
